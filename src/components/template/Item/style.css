@@ -1,0 +1,20 @@
+.item {
+  /*margin: 3px;*/
+  width: 120px;
+  height: 120px;
+  background-color: #3c3c3c;
+}
+
+.item:not(:first-child) {
+  margin-left: 3px;
+}
+
+.item .mark {
+  width: 100%;
+  height: 100%;
+  padding: 1.5rem;
+}
+
+.item:hover {
+  cursor: pointer;
+}

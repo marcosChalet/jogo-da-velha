@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'Hahmlet';
+  src: url('./assets/fonts/Hahmlet-Medium.ttf');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Hahmlet', serif;
+}
+
+body {
+  font-size: 16px;
+  background-color: #1e1e1e;
+  color: #e8e8e8;
+}

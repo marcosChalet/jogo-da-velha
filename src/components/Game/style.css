@@ -1,0 +1,25 @@
+.game {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: inherit;
+  height: inherit;
+  text-transform: uppercase;
+}
+
+.game__table {
+  display: flex;
+  background-color: #72a5d4;
+  margin-top: 3rem;
+  flex-direction: column;
+}
+
+.game__row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.game__row:not(:first-child) {
+  margin-top: 3px;
+}
